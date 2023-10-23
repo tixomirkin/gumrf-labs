@@ -54,8 +54,8 @@ public:
 
         //res = Money(a-m2.a, b-m2.b);
 
-        cout << fixed << setprecision(prs);
-        cout << double (a*100 + b) / (m2.a*100 + m2.b) << endl;
+        //cout << fixed << setprecision(prs);
+        cout << double (a + b / 100.0) / (m2.a + m2.b / 100.0) << endl;
     };
     void out(){
         a = a + b / 100;
